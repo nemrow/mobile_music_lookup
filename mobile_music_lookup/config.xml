@@ -20,14 +20,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         id        = "io.cordova.helloCordova"
         version   = "2.0.0">
-    <name>Hello Cordova</name>
+    <name>Lyrics Guru</name>
 
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Search and listen to songs without knowing the artist or title, just the lyrics.
     </description>
 
-    <author href="http://cordova.io" email="dev@cordova.apache.org">
-        Apache Cordova Team
+    <author href="https://twitter.com/nemrow" email="nemrowj@gmail.com">
+        Jordan Nemrow
     </author>
 
     <access origin="http://localhost:9393"/>
@@ -36,6 +36,8 @@
 
     <!-- <content src="http://localhost:9393" /> for external pages -->
     <content src="index.html" />
+    
+    <icon src="img/icon.png" />
 
     <!-- Preferences for iOS -->
     <preference name="AllowInlineMediaPlayback" value="false" />

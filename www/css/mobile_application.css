@@ -1,0 +1,120 @@
+a, p, h1, h2, h3, input{
+	font-family: 'Fjalla One', sans-serif;
+}
+body{
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+}
+.page-1{
+	width: 100%;
+	position: relative;
+}
+.open_search_shell_btn{
+	width: 50%;
+	margin:10px auto;
+	display: none;
+}
+.loading_shell{
+	width: 100%;
+	height: 0px;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.loading{
+	margin: 0px auto;
+	padding: 0px;
+	width: 306px;
+	top: 0px;
+	visibility: hidden;
+}
+h1.logo{
+	margin:25px auto;
+	text-align: center; 
+}
+.content{
+	margin: 10px auto;
+	text-align: center;
+}
+form.song-lookup{
+	/*font-size: 35px;
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto 10px auto;
+	text-align: center;*/
+}
+.search_shell{
+
+}
+.song-lookup input[type=text]{
+	height: 80px;
+	border-radius: 5px;
+	text-align: center;
+}
+.songs-container{
+	height: 400px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: auto;
+	position: relative;
+}
+.song-rolling-shelf{
+	height: 400px;
+	width: auto;
+	position: absolute;
+}
+.indi-song-shell{
+	width: 300px;
+	text-align: center;
+	margin: 10px auto;
+	float: left;
+	position: relative;
+}
+.indi-song-shell img.album-artwork{
+	width: 200px;
+	height: 200px;
+	opacity: 0.5;
+	border-radius: 100px;	box-shadow: 0px 0px 20px black;
+	margin-top: 20px;
+}
+.lyrics-input-container{
+	width: 80%;
+	margin:20px auto;
+}
+.play_pause{
+	position: absolute;
+	top: 80px;
+	left: 115px;
+	width: 79px;
+	height: 90px;
+	background-image: url('../img/play_pause_SPRITE.png');
+	background-position: 0px 0px;
+	z-index: 2;
+}
+.submit-btn-shell{
+	width: 60%;
+	margin: 0 auto;
+}
+.indi-song-shell a.itunes-link img{
+	position: relative;
+	top: 7px;
+}
+.indi-song-shell a.itunes-link p{
+	display:  inline-block;
+	color: grey;
+	font-size: 12px;
+}
+.track-playing{
+	opacity: 1 !important;
+}
+h3.song-artist{
+	margin: 10px auto;
+}
+p.song-title{
+	margin: 0px auto;
+	font-size: 14px;
+	font-style: italic;
+}

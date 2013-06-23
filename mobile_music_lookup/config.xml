@@ -30,7 +30,7 @@
         Jordan Nemrow
     </author>
 
-    <access origin="http://localhost:9393"/>
+    <access origin="http://lyrics-guru.herokuapp.com/"/>
     <access origin="http://cdn.7static.com"/>
     <access origin="http://previews.7digital.com"/>
 

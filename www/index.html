@@ -83,7 +83,7 @@
             });
             $('#open_search_shell_btn').button('disable');
             var input_data = $('.song-lookup').serialize();
-            $.post('http://localhost:9393/find_song', input_data, function(data_returned){
+            $.post('http://lyrics-guru.herokuapp.com/find_song', input_data, function(data_returned){
               $('.loading').css("visibility", "hidden");
               if (data_returned != ''){
                 $('.song-rolling-shelf').html(data_returned);
